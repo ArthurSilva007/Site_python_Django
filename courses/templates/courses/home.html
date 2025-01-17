@@ -1,0 +1,47 @@
+    {% extends "courses/base.html" %}
+
+    {% block content %}
+    <header class="hero">
+        <h1> Bem-vindo a Infra</h1>
+        <p>Transforme sua sabedoria em ideias, compartilhe conosco,
+            E veja resultados atraves de outras pessoas.
+        </p>
+        <a href="{{ home.link_btn }}" class="btn btn-light btn-lg mt-3">CLIQUE AQUI</a>
+      </header>
+
+      <main class="container my-5">
+        <section class="text-center">
+          <h2 class="mb-5"> Porue compartilhar ideias? </h2>
+          <p class="mb-5">  Compartihar ideias faz parte da nossa humanidade.
+            pois foi assim que a nacao evoluiu </p>
+          <div class="row mb-4">
+            <div class="col-md-4">
+              <div class="card shadow border-light">
+                <div class="card-body">
+                  <h5 class="card-title mb-3"> Obter espaco entre QI mais altos </h5>
+                  <p class="card-text"> compartilhe seus ideais com aqueles que sao dotados do saber</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card shadow border-light">
+                <div class="card-body">
+                  <h5 class="card-title mb-3"> Faca o curso conosco e aprenda a pensar da forma certa  </h5>
+                  <p class="card-text"> home.description_topic_two </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card shadow border-light">
+                <div class="card-body">
+                  <h5 class="card-title mb-3"> home.title_topic_three </h5>
+                  <p class="card-text"> home.description_topic_three </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+    
+
+    {% endblock %}
