@@ -33,7 +33,7 @@ Criar um super usuário.
 
 python manage.py createsuperuser
 Usuário (leave blank to use 'cesar'): admin
-Endereço de email: cesar@celke.com.br
+Endereço de email: 
 Password: 123456A#
 Password (again): 123456A#
 Acessar o sistema administrativo padrão do Python.
