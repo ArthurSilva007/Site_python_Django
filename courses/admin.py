@@ -12,5 +12,6 @@ class ContactMessageAdmin(admin.ModelAdmin):
 @admin.register(Contact)
 class ContactAdmin(admin.ModelAdmin):
     list_display = ('id', 'address')
+    
 
 # Register your models here.
